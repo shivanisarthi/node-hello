@@ -1,1 +1,4 @@
-checking the script
+#!/bin/sh
+
+echo "hello ${NAME:-world}"
+echo " welcome to concourse"
