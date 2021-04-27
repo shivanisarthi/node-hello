@@ -1,6 +1,6 @@
 FROM busybox
 
-ADD checkscript /bin/checkscript
+ADD checkscript /docker/checkscript
 
 ENV NAME=world
-ENTRYPOINT ["/bin/checkscript"]
+ENTRYPOINT ["/docker/checkscript"]
