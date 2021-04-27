@@ -1,6 +1,6 @@
 FROM busybox
 
-ADD hello-world /bin/hello-world
+ADD checkscript /bin/checkscript
 
 ENV NAME=world
-ENTRYPOINT ["/bin/hello-world"]
+ENTRYPOINT ["/bin/checkscript"]
